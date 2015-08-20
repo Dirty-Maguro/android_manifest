@@ -2,7 +2,22 @@
 
 ## Setup your build enivornment & sync our source ##
 
-To setup your build enivornment and sync DU, please follow this guide [HERE](http://forum.xda-developers.com/chef-central/android/tutorial-compile-lollipop-ubuntu-t2929410)
+To setup your build enivornment and sync DU, please download this tool [HERE](https://www.androidfilehost.com/?fid=24052804347802647)
+
+Extract the archive to a location of your choice
+
+Double click on the ABT.jar file 
+
+To setup your build enivornment and sync DU manually, please use this guide [HERE](http://forum.xda-developers.com/chef-central/android/tutorial-compile-lollipop-ubuntu-t2929410)
+
+## Build DirtyUnicorns ##
+
+Open the terminal and type in
+
+```bash
+cd ROOT_OF_SOURCE
+./build.sh
+```
 
 ## Submitting Patches ##
 

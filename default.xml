@@ -417,7 +417,9 @@
 
   <!--DU REPOS-->
   <!--general-->
-  <project path="manifest" name="android_manifest" />
+  <project path="manifest" name="android_manifest" >
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
   <project path="build" name="android_build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
