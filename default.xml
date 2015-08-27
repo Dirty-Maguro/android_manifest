@@ -478,7 +478,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omni" />
   
   <!--DM-->
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroi" remote="dm" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="dm" />
   <project path="kernel/samsung/tuna" name="omap" remote="dm" />
   <project path="frameworks/support" name="android_frameworks_support" remote="dm" />
   
@@ -492,6 +492,6 @@
 
   <!--vendor-->
   <project path="vendor/du" name="android_vendor_du" remote="dm" />
-  <project path="vendor/samsung" name="android_vendor_samsung" remote="dm" />
+  <project path="vendor/samsung" name=" proprietary_vendor_samsung" remote="dm" />
 
 </manifest>
