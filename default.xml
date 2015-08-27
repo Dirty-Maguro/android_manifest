@@ -492,6 +492,6 @@
 
   <!--vendor-->
   <project path="vendor/du" name="android_vendor_du" remote="dm" />
-  <project path="vendor/samsung" name=" proprietary_vendor_samsung" remote="dm" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="dm" />
 
 </manifest>
