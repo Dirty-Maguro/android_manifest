@@ -42,6 +42,7 @@
   <project path="device/generic/qemu" name="device/generic/qemu" remote="aosp" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
+  <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" remote="aosp" />
