@@ -1,6 +1,10 @@
 #!/bin/bash
 clear
 
+ if [ -f /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java ]; then
+     echo Java is already installed...
+     sleep 1
+ else
  CONFIG=0
  echo Installing OpenJDK...
  sleep 1
@@ -55,5 +59,6 @@ clear
 
  echo OpenJDK Installed...
  sleep 1
+fi
 
 clear

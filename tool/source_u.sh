@@ -18,6 +18,10 @@ clear
  if [ -d "$dupath" ]; then 
      rm -r $dupath
      break
+ else
+     echo The folder does not exist
+     sleep 1
+     clear
  fi
  done
 

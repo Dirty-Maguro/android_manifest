@@ -8,7 +8,7 @@ clear
  #Folder Source
  echo Where "do" you want to initialized DU source? 
  sleep 0.5
- echo Enter the desired directory name similar to this:
+ echo Enter the desired directory name similar to this":"
  sleep 0.5
  echo "/home/$USER/du or /media/$USER/yourdrive/du"
  read dupath
@@ -24,6 +24,7 @@ clear
      echo Choose another folder please.
      sleep 1
      echo
+     clear
  else
      echo $dupath >> temp.txt
      break
@@ -49,7 +50,7 @@ clear
  clear
 
  #Wait before initializing DU Source
- echo Creating and Initializing DU Source at $dupath in 7 seconds...
+ echo Creating and Initializing DU Source at $dupath "in" 7 seconds...
  sleep 6
  echo Ok, let\'s move on. 
  sleep 1

@@ -4,6 +4,10 @@
 
  sudo chmod 777 /etc/udev/rules.d/51-android.rules
 
+if grep -Fxq "SUBSYSTEM==usb, ATTR{idVendor}==18d1, MODE=0666" /etc/udev/rules.d/51-android.rules; then
+ echo Driver is already installed...
+ sleep 1
+else
  echo Installing the driver...
  sleep 2
 
@@ -94,5 +98,5 @@
  echo Driver Installed.
  sleep 2
  clear
-
+fi
 
